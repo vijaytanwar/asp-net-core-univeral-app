@@ -1,0 +1,8 @@
+﻿@page
+@model IndexModel
+@{
+    Model.Title = "Home page";
+}
+<div id="Page_Container">
+    @{Html.RenderPartial("_Index", Model);}
+</div>
